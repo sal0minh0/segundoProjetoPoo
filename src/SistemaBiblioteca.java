@@ -7,12 +7,24 @@ class Pessoa {
     private String telefone;
 
 
-    public String getNome() { return nome; }
-    public void setNome(String nome) { this.nome = nome; }
-    public String getEndereco() { return endereco; }
-    public void setEndereco(String endereco) { this.endereco = endereco; }
-    public String getTelefone() { return telefone; }
-    public void setTelefone(String telefone) { this.telefone = telefone; }
+    public String getNome() { 
+        return nome; 
+    }
+    public void setNome(String nome) { 
+        this.nome = nome; 
+    }
+    public String getEndereco() { 
+        return endereco; 
+    }
+    public void setEndereco(String endereco) { 
+        this.endereco = endereco; 
+    }
+    public String getTelefone() { 
+        return telefone; 
+    }
+    public void setTelefone(String telefone) { 
+        this.telefone = telefone; 
+    }
 
 
     public void imprimirDetalhes() {
@@ -30,9 +42,15 @@ class Cliente extends Pessoa {
     }
 
 
-    public int getIdCliente() { return idCliente; }
-    public void setIdCliente(int idCliente) { this.idCliente = idCliente; }
-    public ArrayList<Livro> getLivrosEmprestados() { return livrosEmprestados; }
+    public int getIdCliente() { 
+        return idCliente; 
+    }
+    public void setIdCliente(int idCliente) { 
+        this.idCliente = idCliente; 
+    }
+    public ArrayList<Livro> getLivrosEmprestados() { 
+        return livrosEmprestados; 
+    }
 
 
     public void emprestarLivro(Livro livro) {
@@ -58,14 +76,30 @@ class Livro {
     private boolean disponivel;
 
 
-    public String getTitulo() { return titulo; }
-    public void setTitulo(String titulo) { this.titulo = titulo; }
-    public String getAutor() { return autor; }
-    public void setAutor(String autor) { this.autor = autor; }
-    public int getIdLivro() { return idLivro; }
-    public void setIdLivro(int idLivro) { this.idLivro = idLivro; }
-    public boolean isDisponivel() { return disponivel; }
-    public void setDisponivel(boolean disponivel) { this.disponivel = disponivel; }
+    public String getTitulo() { 
+        return titulo; 
+    }
+    public void setTitulo(String titulo) { 
+        this.titulo = titulo; 
+    }
+    public String getAutor() { 
+        return autor; 
+    }
+    public void setAutor(String autor) { 
+        this.autor = autor; 
+    }
+    public int getIdLivro() { 
+        return idLivro; 
+    }
+    public void setIdLivro(int idLivro) { 
+        this.idLivro = idLivro; 
+    }
+    public boolean isDisponivel() { 
+        return disponivel; 
+    }
+    public void setDisponivel(boolean disponivel) { 
+        this.disponivel = disponivel; 
+    }
 }
 
 
